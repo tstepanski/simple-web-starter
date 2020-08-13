@@ -1,0 +1,33 @@
+{
+  "name": "timothy-babel-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production && cp index.html output/index.html"
+  },
+  "keywords": [],
+  "author": "Timothy M. Stepanski",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-typescript": "latest",
+    "@babel/runtime": "latest",
+    "babel-loader": "latest",
+    "core-js": "latest",
+    "css-loader": "latest",
+    "minify": "latest",
+    "source-map-loader": "latest",
+    "style-loader": "latest",
+    "typescript": "latest",
+    "uglify-js": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/webpack": "latest"
+  }
+}
