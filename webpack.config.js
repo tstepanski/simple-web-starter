@@ -1,5 +1,6 @@
 ﻿const path = require("path");
 
+// noinspection SpellCheckingInspection
 module.exports = {
     mode: "production",
     target: "web",
